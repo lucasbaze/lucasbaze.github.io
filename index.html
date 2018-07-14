@@ -10,7 +10,7 @@
   <meta name="description" content="description here">
   <meta name="keywords" content="keywords,here">
   <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=font1|font2|etc" type="text/css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans|Inconsolata" type="text/css">
   <script type="text/javascript">
    var _gaq = _gaq || [];
    _gaq.push(['_setAccount', 'UA-XXXXXXXX-Y']);
@@ -22,8 +22,81 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
    })();
   </script>
+
+  <style>
+
+  	body{
+  		font-family: 'Inconsolata', 'Open Sans';
+  	}
+
+  	h1{
+  		padding: 0px;
+  		margin: 0px;
+  	}
+
+  	p{
+  		margin: 0px;
+  	}
+
+	.head {
+		display: flex;
+	}
+
+	.column{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.flex1{
+		flex: 1;
+	}
+
+	.flex2{
+		flex: 3;
+	}
+
+	.about{
+		padding: 50px;
+	}
+
+	.profile{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+  </style>
+
   </head>
-  <body>
-  	<h1>Hello World</h1>
+  <body style="margin: 0; padding: 0">
+  	<div class="head">
+  		<div class="column flex2" style="background-image: ">
+	  		<img src="images/profile.jpg" class="profile">
+  		</div>
+  		<div class="column flex1 about" style="height: 90vh; overflow: scroll">
+  			<section>
+  				<h1 style="font-size: 1.8em;">LUCAS BAZEMORE</h1>
+  				<p><b>Human, Traveler, Creator of Things</b></p>
+  				<p>"Sometimes I do. Mostly I don't." <br /> - Lucas Bazemore </p>
+  			</section>
+  			<section>
+  				<div>
+  					<p>
+  						I really don't know what to put here. I have a ton of hobby ideas. Here are some of the most influential books that have made an impression on me. I like to make things. I started a startup that failed catastrophically. I started a student organization that failed. I've started a chess camp that failed. I've been a swim coach for my neighborhood. I've lied, cheated, and stolen things, and had the same done to me. I wake up mostly happy to be alive. I like the idea of creating big things, but currently don't have the motivation to do them really. I love most things. I REALLY wanted to be important, but I've recently realized that it's not worth it. I am at peace.  
+  						<br />
+  					</p>
+
+  					<p>
+  						NOW:
+  						Currently working at OutboundEngine as a Customer Success Representative. Working on converting my truck into a liveable van. Building a website to sell posters about books I like. Enjoying my time traveling.
+
+  					</p>
+  					<p>
+  						I really don't know what to put here. I have a ton of hobby ideas. Here are some of the most influential books that have made an impression on me. I like to make things. I started a startup that failed catastrophically. I started a student organization that failed. I've started a chess camp that failed. I've been a swim coach for my neighborhood. I've lied, cheated, and stolen things, and had the same done to me. I wake up mostly happy to be alive. I like the idea of creating big things, but currently don't have the motivation to do them really. I love most things. I REALLY wanted to be important, but I've recently realized that it's not worth it. I am at peace.  
+  					</p>
+  				</div>
+  			</section>
+  		</div>
+  	</div>
   </body>
 </html>
