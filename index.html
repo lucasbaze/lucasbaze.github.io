@@ -59,17 +59,55 @@
 		padding: 50px;
 	}
 
+	@media only screen and (max-width: 800px){
+		.desktop{
+			display: none;
+		}
+	}
+
+	@media only screen and (min-width: 800px){
+		.phone{
+			display: none;
+		}
+	}
+
   </style>
 
   </head>
   <body style="margin: 0; padding: 0">
-  	<div class="head">
+  	<div class="head desktop">
   		<div class="column flex2" style="background-image: url(images/profile.jpg); background-size: cover; background-repeat: no-repeat; background-position: center">
 	  		
   		</div>
   		<div class="column flex1 about" style="height: 90vh; overflow: scroll">
   			<section>
-  				<h1 style="font-size: 1.8em;">LUCAS BAZEMORE</h1>
+  				<h1 style="font-size: 1.8em; font-weight: 800">LUCAS BAZEMORE</h1>
+  				<p><b>Human, Traveler, Creator of Things</b></p>
+  				<p>"Sometimes I do. Mostly I don't." <br /> - Lucas Bazemore </p>
+  			</section>
+  			<section>
+  				<div>
+  					<p>
+  						I really don't know what to put here. I have a ton of hobby ideas. Here are some of the most influential books that have made an impression on me. I like to make things. I started a startup that failed catastrophically. I started a student organization that failed. I've started a chess camp that failed. I've been a swim coach for my neighborhood. I've lied, cheated, and stolen things, and had the same done to me. I wake up mostly happy to be alive. I like the idea of creating big things, but currently don't have the motivation to do them really. I love most things. I REALLY wanted to be important, but I've recently realized that it's not worth it. I am at peace.  
+  						<br />
+  					</p>
+
+  					<p>
+  						NOW:
+  						Currently working at OutboundEngine as a Customer Success Representative. Working on converting my truck into a liveable van. Building a website to sell posters about books I like. Enjoying my time traveling.
+
+  					</p>
+  				</div>
+  			</section>
+  		</div>
+  	</div>
+  	<div class="column phone">
+  		<div>
+  			<img src="images/profile.jpg" width="100%"/>
+  		</div>
+  		<div class="about">
+  			<section>
+  				<h1 style="font-size: 1.8em; font-weight: 800">LUCAS BLAZEMORE</h1>
   				<p><b>Human, Traveler, Creator of Things</b></p>
   				<p>"Sometimes I do. Mostly I don't." <br /> - Lucas Bazemore </p>
   			</section>
